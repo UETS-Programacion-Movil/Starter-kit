@@ -20,8 +20,8 @@ const indexContent = `import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center bg-slate-900">
-      <Text className="text-white text-lg font-bold">Edit app/index.tsx to edit this screen.</Text>
+    <View className="flex-1 justify-center items-center bg-white">
+      <Text className="text-slate-900 text-lg font-bold">Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
 }
